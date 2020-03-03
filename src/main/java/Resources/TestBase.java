@@ -30,8 +30,7 @@ String browserName=prop.getProperty("browser");
 
 if(browserName.equals("chrome"))
 {
-	System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver
-");
+	System.setProperty("webdriver.chrome.driver","//usr//local//bin//chromedriver");
 	driver= new ChromeDriver();
 		//execute in chrome driver
 	
