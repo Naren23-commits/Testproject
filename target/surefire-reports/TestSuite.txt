@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.154 s <<< FAILURE! - in TestSuite
+Academy.validateTitle.validateApptitle  Time elapsed: 0.745 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<FEATURED CO[]URSES> but was:<FEATURED CO[3]URSES>
+	at Academy.validateTitle.validateApptitle(validateTitle.java:41)
+
+Academy.validateNavigationlinks.teardown  Time elapsed: 0.316 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DELL', ip: '10.0.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\DELL55~1\AppData\Local\Temp\scoped_dir14384_2131026782}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64428}, acceptInsecureCerts=false, browserVersion=80.0.3987.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 20fd5c42e88695e20bc9ca7302524a7e
+	at Academy.validateNavigationlinks.teardown(validateNavigationlinks.java:48)
+

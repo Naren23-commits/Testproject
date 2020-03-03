@@ -1,0 +1,8 @@
+10:56:14.548 [main] INFO  Academy.Homepage - Navigated to Loginpage
+10:56:18.854 [main] INFO  Academy.Homepage - Navigated to Homepage
+10:56:22.772 [main] INFO  Academy.Homepage - Navigated to Loginpage
+10:56:25.516 [main] INFO  Academy.Homepage - browserclosed
+10:56:28.542 [main] INFO  Academy.validateTitle - driver is initialized
+10:56:30.648 [main] INFO  Academy.validateTitle - Navigated to Homepage
+10:56:36.273 [main] INFO  Academy.validateNavigationlinks - driver is initialized
+10:56:38.931 [main] INFO  Academy.validateNavigationlinks - Navigated to Homepage

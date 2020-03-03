@@ -1,0 +1,7 @@
+18:46:27.017 [main] INFO  Academy.Homepage - browserclosed
+18:46:29.533 [main] INFO  Academy.validateTitle - driver is initialized
+18:46:31.484 [main] INFO  Academy.validateTitle - Navigated to Homepage
+18:46:34.453 [main] INFO  Academy.validateNavigationlinks - driver is initialized
+18:46:36.719 [main] INFO  Academy.validateNavigationlinks - Navigated to Homepage
+18:46:36.834 [main] INFO  Academy.validateNavigationlinks - Navigation Bar successfully displayed
+18:46:36.944 [main] INFO  Academy.validateNavigationlinks - browserclosed

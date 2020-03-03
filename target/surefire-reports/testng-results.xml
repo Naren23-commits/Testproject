@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52279" started-at="2020-02-25T18:45:44 IST" finished-at="2020-02-25T18:46:37 IST">
+    <groups>
+    </groups>
+    <test name="Validating User login" duration-ms="42352" started-at="2020-02-25T18:45:44 IST" finished-at="2020-02-25T18:46:27 IST">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@3d1cfad4]" name="initialize" is-config="true" duration-ms="3279" started-at="2020-02-25T18:45:44 IST" finished-at="2020-02-25T18:45:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="openingbrowser(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@3d1cfad4]" name="openingbrowser" duration-ms="25670" started-at="2020-02-25T18:45:48 IST" data-provider="getdata" finished-at="2020-02-25T18:46:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingbrowser -->
+        <test-method status="PASS" signature="openingbrowser(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@3d1cfad4]" name="openingbrowser" duration-ms="13162" started-at="2020-02-25T18:46:13 IST" data-provider="getdata" finished-at="2020-02-25T18:46:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingbrowser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Homepage@3d1cfad4]" name="teardown" is-config="true" duration-ms="173" started-at="2020-02-25T18:46:26 IST" finished-at="2020-02-25T18:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Validating User login -->
+    <test name="Validating title in the Page" duration-ms="5181" started-at="2020-02-25T18:46:27 IST" finished-at="2020-02-25T18:46:32 IST">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@6631f5ca]" name="initialize" is-config="true" duration-ms="4338" started-at="2020-02-25T18:46:27 IST" finished-at="2020-02-25T18:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateApptitle()[pri:0, instance:Academy.validateTitle@6631f5ca]" name="validateApptitle" duration-ms="201" started-at="2020-02-25T18:46:31 IST" finished-at="2020-02-25T18:46:31 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<FEATURED CO[]URSES> but was:<FEATURED CO[3]URSES>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<FEATURED CO[]URSES> but was:<FEATURED CO[3]URSES>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at junit.framework.Assert.assertEquals(Assert.java:107)
+at Academy.validateTitle.validateApptitle(validateTitle.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApptitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@6631f5ca]" name="teardown" is-config="true" duration-ms="95" started-at="2020-02-25T18:46:32 IST" finished-at="2020-02-25T18:46:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating title in the Page -->
+    <test name="Validating navigation Bar" duration-ms="4683" started-at="2020-02-25T18:46:32 IST" finished-at="2020-02-25T18:46:37 IST">
+      <class name="Academy.validateNavigationlinks">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationlinks@34f5090e]" name="initialize" is-config="true" duration-ms="4365" started-at="2020-02-25T18:46:32 IST" finished-at="2020-02-25T18:46:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateApptitle()[pri:0, instance:Academy.validateNavigationlinks@34f5090e]" name="validateApptitle" duration-ms="223" started-at="2020-02-25T18:46:36 IST" finished-at="2020-02-25T18:46:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApptitle -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:Academy.validateNavigationlinks@34f5090e]" name="teardown" is-config="true" duration-ms="91" started-at="2020-02-25T18:46:36 IST" finished-at="2020-02-25T18:46:37 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DELL', ip: '10.0.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\DELL55~1\AppData\Local\Temp\scoped_dir14384_2131026782}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64428}, acceptInsecureCerts=false, browserVersion=80.0.3987.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 20fd5c42e88695e20bc9ca7302524a7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DELL', ip: '10.0.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\DELL55~1\AppData\Local\Temp\scoped_dir14384_2131026782}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64428}, acceptInsecureCerts=false, browserVersion=80.0.3987.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: 20fd5c42e88695e20bc9ca7302524a7e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:523)
+at Academy.validateNavigationlinks.teardown(validateNavigationlinks.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.afterRun(TestRunner.java:849)
+at org.testng.TestRunner.run(TestRunner.java:590)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateNavigationlinks -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>
