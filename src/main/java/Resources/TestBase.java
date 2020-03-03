@@ -30,7 +30,8 @@ String browserName=prop.getProperty("browser");
 
 if(browserName.equals("chrome"))
 {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\dell 5558\\Documents\\ChromeDriver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver
+");
 	driver= new ChromeDriver();
 		//execute in chrome driver
 	
