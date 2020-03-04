@@ -26,7 +26,8 @@ public class validateTitle extends TestBase {
 		driver=	initializeDriver();
 		//WebDriver driver = super.initializeDriver();
 		log.info("driver is initialized");
-		driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
+		driver.get("http://www.qaclickacademy.com/");
 		log.info("Navigated to Homepage");
 	}
 		
