@@ -22,7 +22,8 @@ public class validateNavigationlinks extends TestBase {
 public void initialize() throws IOException {
 		driver=	initializeDriver();
 		log.info("driver is initialized");
-		driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
+		driver.get("http://www.qaclickacademy.com/");
 		log.info("Navigated to Homepage");
 }
 	
