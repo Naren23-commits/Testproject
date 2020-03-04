@@ -30,7 +30,8 @@ public class Homepage extends TestBase {
 @Test(dataProvider="getdata")
 public void Loginin(String username, String password) throws IOException
 	{
-	driver.get(prop.getProperty("url"));
+	//driver.get(prop.getProperty("url"));
+	driver.get("http://www.qaclickacademy.com/");
 	log.info("Navigated to Homepage");
 		Landingpage l=new Landingpage(driver);
 		l.getLogin().click();
