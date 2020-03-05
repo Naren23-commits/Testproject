@@ -37,7 +37,7 @@ public WebDriver initializeDriver() throws IOException
        options.addArguments("–disable-dev-shm-usage");
        options.setExperimentalOption(“useAutomationExtension”, false);
         WebDriver driver = new ChromeDriver(options);
-	//return driver= new ChromeDriver();
+	return driver= new ChromeDriver(options);
 	
 	
 	
