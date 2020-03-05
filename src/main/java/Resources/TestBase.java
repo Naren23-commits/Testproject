@@ -33,7 +33,7 @@ public WebDriver initializeDriver() throws IOException
 //if(browserName.equals("chrome"))
 //{     
 
-	System.setProperty("webdriver.chrome.driver","chromedriver");
+	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 	ChromeOptions options = new ChromeOptions();
 
        options.setExperimentalOption("useAutomationExtension", false);
