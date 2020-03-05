@@ -40,8 +40,6 @@ public WebDriver initializeDriver() throws IOException
        
 	
 	return driver= new ChromeDriver(options);
-	driver.get(url);
-	
 	
 	
 	
