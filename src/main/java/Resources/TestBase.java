@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -18,6 +19,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public Properties prop;
+	public class ChromeOptions ;
 public WebDriver initializeDriver() throws IOException
 {
 	
