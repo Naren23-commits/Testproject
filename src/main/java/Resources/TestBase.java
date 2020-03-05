@@ -19,7 +19,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public Properties prop;
-	public class ChromeOptions ;
+	
 public WebDriver initializeDriver() throws IOException
 {
 	
@@ -35,11 +35,12 @@ public WebDriver initializeDriver() throws IOException
 
 	System.setProperty("webdriver.chrome.driver","chromedriver");
 	ChromeOptions options = new ChromeOptions();
+	options.addArguments("–-headless");
         options.addArguments("–no-sandbox");
        options.addArguments("–disable-dev-shm-usage");
        options.setExperimentalOption("useAutomationExtension", false);
         WebDrive driver = new ChromeDriver(options);
-	driver.get(url);
+	driver.get("www.google.com");
 	//return driver= new ChromeDriver(options);
 	
 	
