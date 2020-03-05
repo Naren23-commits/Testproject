@@ -39,9 +39,9 @@ public WebDriver initializeDriver() throws IOException
         options.addArguments("–no-sandbox");
        options.addArguments("–disable-dev-shm-usage");
        options.setExperimentalOption("useAutomationExtension", false);
-        WebDrive driver = new ChromeDriver(options);
-	driver.get("www.google.com");
-	//return driver= new ChromeDriver(options);
+       
+	
+	return driver= new ChromeDriver(options);
 	
 	
 	
