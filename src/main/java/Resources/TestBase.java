@@ -33,10 +33,9 @@ public WebDriver initializeDriver() throws IOException
 	System.setProperty("webdriver.chrome.driver","chromedriver");
 	//return driver= new ChromeDriver();
 	ChromeOptions opt = new ChromeOptions();
-        opt.setBinary("start-chrome");  //chrome binary location specified here
+        opt.setBinary("start-chrome");  
         options.addArguments("start-maximized");
-        options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-        options.setExperimentalOption("useAutomationExtension", false);
+
         WebDriver driver = new ChromeDriver(opt);
         driver.get("https://www.google.com/");
 	
