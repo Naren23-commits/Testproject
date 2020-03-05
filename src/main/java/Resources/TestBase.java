@@ -32,7 +32,12 @@ public WebDriver initializeDriver() throws IOException
 //{     
 
 	System.setProperty("webdriver.chrome.driver","chromedriver");
-	return driver= new ChromeDriver();
+	ChromeOptions options = new ChromeOptions();
+        options.addArguments("–no-sandbox");
+       options.addArguments("–disable-dev-shm-usage");
+       options.setExperimentalOption(“useAutomationExtension”, false);
+        WebDriver driver = new ChromeDriver(options);
+	//return driver= new ChromeDriver();
 	
 	
 	
