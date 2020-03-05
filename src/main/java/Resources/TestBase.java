@@ -35,13 +35,12 @@ public WebDriver initializeDriver() throws IOException
 
 	System.setProperty("webdriver.chrome.driver","chromedriver");
 	ChromeOptions options = new ChromeOptions();
-	options.addArguments("–-headless");
-        options.addArguments("–-no-sandbox");
-       options.addArguments("–-disable-dev-shm-usage");
+
        options.setExperimentalOption("useAutomationExtension", false);
        
 	
 	return driver= new ChromeDriver(options);
+	driver.get(url);
 	
 	
 	
