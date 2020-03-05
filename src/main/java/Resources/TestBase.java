@@ -36,8 +36,8 @@ public WebDriver initializeDriver() throws IOException
 	System.setProperty("webdriver.chrome.driver","chromedriver");
 	ChromeOptions options = new ChromeOptions();
 	options.addArguments("–-headless");
-        options.addArguments("–no-sandbox");
-       options.addArguments("–disable-dev-shm-usage");
+        options.addArguments("–-no-sandbox");
+       options.addArguments("–-disable-dev-shm-usage");
        options.setExperimentalOption("useAutomationExtension", false);
        
 	
