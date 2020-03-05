@@ -35,7 +35,7 @@ public WebDriver initializeDriver() throws IOException
         chrome_options.add_argument('--no-sandbox');
         chrome_options.add_argument('--disable-dev-shm-usage');
 	System.setProperty("webdriver.chrome.driver","chromedriver");
-	//return driver= new ChromeDriver();
+	return driver= new ChromeDriver();
 	
 	
 	
